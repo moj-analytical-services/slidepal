@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Benjamin",
            family = "Lavelle",
            role = c("aut", "cre"),
-           email = "benjamin.lavelle@justice.gov.uk"
+           email = "benjamin.lavelle@justice.gov.uk")
 Description: Provides ggplot2 theme plugins for MoJ slide colours, as well as JSON-wrapped themes for other uses.
 Encoding: UTF-8
 LazyData: true
@@ -15,3 +15,4 @@ Imports:
     jsonlite,
     here,
     stringr
+RoxygenNote: 6.0.1
