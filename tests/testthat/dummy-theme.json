@@ -1,0 +1,43 @@
+{
+  "name": "dummy theme",
+  "updated": "2019-10-28T00:00:00.000Z",
+  "compiler": {
+    "forename": "Benjamin",
+    "surname": "Lavelle",
+    "email": "benjamin.lavelle@justice.gov.uk"
+  },
+  "palette": {
+    "accent1": {
+      "name": "dummy1",
+      "hex": "#111AAA"
+    },
+    "accent2": {
+      "name": "dummy2",
+      "hex": "#222BBB"
+    },
+    "accent3": {
+      "name": "dummy3",
+      "hex": "#333CCC"
+    },
+    "accent4": {
+      "name": "dummy4",
+      "hex": "#444DDD"
+    },
+    "accent5": {
+      "name": "dummy5",
+      "hex": "#555EEE"
+    },
+    "accent6": {
+      "name": "dummy6",
+      "hex": "#666FFF"
+    },
+    "hlink": {
+      "name": "dummyhlink",
+      "hex": "#777GGG"
+    },
+    "hlinkfol": {
+      "name": "dummyhlinkfol",
+      "hex": "#888HHH"
+    }
+  }
+}
