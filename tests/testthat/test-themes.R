@@ -1,7 +1,7 @@
 context("Theme files")
 
 themefiles <- list.files(here::here("themes"), pattern = "*.json")
-otherfiles <- setdiff(list.files(here("themes")), themefiles)
+otherfiles <- setdiff(list.files(here::here("themes")), themefiles)
 
 test_that("all themes are JSON", {
   expect_gte(length(themefiles), 1, label="Number of themes")
@@ -10,7 +10,7 @@ test_that("all themes are JSON", {
 
 test_that("all themes load and have metadata", {
   for (json in themefiles){
-    theme <- jsonlite::read_json(here("themes", json))
+    theme <- jsonlite::read_json(here::here("themes", json))
     expect_true(length(theme$name)==1, label=paste0(json, " has a `name` attribute"))
     expect_true(length(theme$updated)==1, label=paste0(json, " has an `updated` attribute"))
     expect_error(as.Date(theme$updated), NA, label=paste0("in ", json, ", `updated` attribute is a date"))
