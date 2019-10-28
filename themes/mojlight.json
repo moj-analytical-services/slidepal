@@ -1,6 +1,6 @@
 {
   "name": "light theme",
-  "updated": "2019-10-25T00:00:00.000Z",
+  "updated": "2019-10-28T00:00:00.000Z",
   "compiler": {
     "forename": "Benjamin",
     "surname": "Lavelle",
@@ -9,35 +9,35 @@
   "palette": {
     "accent1": {
       "name": "darkblue",
-      "hex": "1D609D"
+      "hex": "#1D609D"
     },
     "accent2": {
       "name": "darkgreen",
-      "hex": "30AA51"
+      "hex": "#30AA51"
     },
     "accent3": {
       "name": "pink",
-      "hex": "E9426E"
+      "hex": "#E9426E"
     },
     "accent4": {
       "name": "purple",
-      "hex": "565B96"
+      "hex": "#565B96"
     },
     "accent5": {
       "name": "teal",
-      "hex": "00A5A1"
+      "hex": "#00A5A1"
     },
     "accent6": {
       "name": "orange",
-      "hex": "EE7127"
+      "hex": "#EE7127"
     },
     "hlink": {
       "name": "lightblue",
-      "hex": "00B1EB"
+      "hex": "#00B1EB"
     },
     "hlinkfol": {
       "name": "lightblue",
-      "hex": "00B1EB"
+      "hex": "#00B1EB"
     }
   }
 }
